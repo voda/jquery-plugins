@@ -98,4 +98,5 @@ Links
 * License: [MIT](http://neteye.github.com/MIT-LICENSE.txt)
 * Demo:    http://neteye.github.com/activity-indicator.html
 
-Please use the GitHub issue tracker for bug reports and feature requests.
+Please use the [GitHub issue tracker]{http://github.com/neteye/jquery-plugins/issues} for bug
+reports and feature requests.

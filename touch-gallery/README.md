@@ -1,24 +1,7 @@
 NETEYE Touch-Gallery
 ====================
 
-Touch-devices like the iPad are almost perfect for viewing images and flicking through photo albums.
-
-While native applications like Apple's Photos app feel incredibly natural and are fun to use,
-the photo-viewing experience on websites is usually far behind. The often used lightbox pattern
-simply doesn't work that well on touch-screens as it does on the desktop. 
-
-We've therefore written a jQuery plugin that leverages modern web technologies to re-create the
-user experience of native photo apps within the browser.
-
-You can flick through the images with your fingers and thanks to WebKit's hardware accelerated
-CSS transitions all animations are just as smooth as in a native app.
-
-The full-screen images are always perfectly centered, no matter whether the page is zoomed or 
-scrolled. And if you rotate the device, the image is re-positioned and re-scaled for a perfect fit.
-
-Despite its name the plugin works on desktop browsers, too (see the list below). We didn't want to
-create yet another lightbox library, so you won't find any extra UI-elements to navigate through
-the images with the mouse.
+A fullscreen photo gallery for touch-devices.
 
 Supported Browsers
 ------------------
@@ -89,5 +72,6 @@ Links
 * License: [MIT](http://neteye.github.com/MIT-LICENSE.txt)
 * Demo:    http://neteye.github.com/touch-gallery.html
 
-Please use the GitHub issue tracker for bug reports and feature requests.
+Please use the [GitHub issue tracker]{http://github.com/neteye/jquery-plugins/issues} for bug
+reports and feature requests.
 
