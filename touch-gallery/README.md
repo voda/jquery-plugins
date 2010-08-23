@@ -1,7 +1,24 @@
 NETEYE Touch-Gallery
 ====================
 
-A fullscreen photo gallery for touch devices.
+Touch-devices like the iPad are almost perfect for viewing images and flicking through photo albums.
+
+While native applications like Apple's Photos app feel incredibly natural and are fun to use,
+the photo-viewing experience on websites is usually far behind. The often used lightbox pattern
+simply doesn't work that well on touch-screens as it does on the desktop. 
+
+We've therefore written a jQuery plugin that leverages modern web technologies to re-create the
+user experience of native photo apps within the browser.
+
+You can flick through the images with your fingers and thanks to WebKit's hardware accelerated
+CSS transitions all animations are just as smooth as in a native app.
+
+The full-screen images are always perfectly centered, no matter whether the page is zoomed or 
+scrolled. And if you rotate the device, the image is re-positioned and re-scaled for a perfect fit.
+
+Despite its name the plugin works on desktop browsers, too (see the list below). We didn't want to
+create yet another lightbox library, so you won't find any extra UI-elements to navigate through
+the images with the mouse.
 
 Supported Browsers
 ------------------
@@ -16,8 +33,9 @@ Dependencies
 ------------
 
 NETEYE Touch Gallery depends on two other plugins that are also part of the NETEYE Plugin 
-Collection: transform and activity-indicator. When you download this plugin as distribution 
-archive, you get an all-in-one JavaScript file that contains all required files.
+Collection: [transform](/transform.html) and [activity-indicator](/activity-indicator.html).
+When you download this plugin as distribution archive, you get an all-in-one JavaScript file
+that contains all required files.
 
 The plugin requires jQuery v1.4.2 (or higher).
 
@@ -69,7 +87,7 @@ Links
 * Author:  [Felix Gnass](http://github.com/fgnass)
 * Company: [NETEYE](http://neteye.de)
 * License: [MIT](http://neteye.github.com/MIT-LICENSE.txt)
-* Demo:    http://neteye.github.com/activity-indicator.html
+* Demo:    http://neteye.github.com/touch-gallery.html
 
 Please use the GitHub issue tracker for bug reports and feature requests.
 
