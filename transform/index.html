@@ -34,35 +34,5 @@ div {
 	Click for transform-transtion
 </div>
 
-
-<script>
-	$('#test1').toggle(
-		function() {
-			$(this).transform({rotate: 20, origin: 'center'});
-		},
-		function() {
-			$(this).transform(false);
-		}
-	);
-	
-	$('#test2').toggle(
-		function() {
-			$(this).transition({opacity: 0.5});
-		},
-		function() {
-			$(this).transition({opacity: 1});
-		}
-	);
-	
-	$('#test3').toggle(
-		function() {
-			$(this).transformTransition({rotate: 20, origin: 'center', duration: 0.5});
-		},
-		function() {
-			$(this).transformTransition({reset: true, origin: 'center'});
-		}
-	);
-</script>
-
 </body>
 </html>
