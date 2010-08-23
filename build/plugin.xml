@@ -100,7 +100,7 @@
 		</copy>
 		<copy todir="${root.dir}/../neteye.github.com/downloads" overwrite="yes">
 			<fileset dir="${build.dir}/dist">
-				<include name="${plugin.name}*" />
+				<include name="NETEYE-${plugin.name}*" />
 			</fileset>
 		</copy>
 		<copy todir="${root.dir}/../neteye.github.com/_includes" overwrite="yes">
