@@ -174,8 +174,10 @@
 		// VML Rendering
 		// =======================================================================================
 		
-		var s = $('<shape>').css('behavior', 'url(#default#VML)').appendTo('body');
-			
+		var s = $('<shape>').css('behavior', 'url(#default#VML)');
+
+		$('body').append(s);
+
 		if (s.get(0).adj) {
 		
 			// VML support detected. Insert CSS rules for group, shape and stroke.
